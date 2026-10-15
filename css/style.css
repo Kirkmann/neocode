@@ -1,0 +1,92 @@
+/* Formata o corpo da página com fundo preto e texto verde */
+body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Define a animação para o efeito de chuva digital */
+@keyframes rain {
+    from {
+        transform: translateY(-100%);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+/* Formata os dígitos binários (0 ou 1) para o efeito de chuva */
+.binary {
+    position: absolute;
+    top: -10%;
+    left: calc(100% * var(--x));
+    font-size: 20px;
+    animation: rain linear infinite;
+    animation-duration: var(--duration);
+}
+
+/* Formata o título principal */
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Centraliza e formata o contêiner principal */
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgb(115, 255, 0);
+    text-align: center;
+    width: 500px;
+}
+
+/* Formata campos de entrada */
+input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 100px;
+}
+
+/* Efeito focus nos campos de entrada */
+input:focus {
+    outline: none;
+    border-color: green;
+}
+
+/* Formata o ícone de alternar visibilidade da senha */
+.toggle-password {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* Formata botões */
+button {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Efeito hover nos botões */
+button:hover {
+    background-color: rgb(115, 255, 0);
+}

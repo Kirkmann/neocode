@@ -1,0 +1,751 @@
+Código Final:
+function somar(a, b) {
+    return a + b;
+}
+console.log(somar([2, 3]));
+Output: 2,3undefined
+
+Resultado: 2,3undefined
+Esperado: 5
+Código Final:
+return a + b;
+Output: C:\Users\edgar\AppData\Local\Temp\codC299.tmp.js:1
+return a + b;
+^
+
+ReferenceError: a is not defined
+    at Object.<anonymous> (C:\Users\edgar\AppData\Local\Temp\codC299.tmp.js:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.14.0
+
+Código Final:
+function somar(a, b) {
+    return a + b;
+}
+console.log(somar([2, 3]));
+Output: 2,3undefined
+
+Resultado: 2,3undefined
+Esperado: 5
+Código Submetido:
+function soma(a, b) {
+    return a + b;
+}
+Código Final:
+function soma(a, b) {
+    return a + b;
+}
+console.log(soma([2, 3]));
+Output: 2,3undefined
+
+Resultado: 2,3undefined
+Esperado: 5
+Código Submetido:
+function soma(a, b) {
+    return a + b;
+}
+Código Final:
+function soma(a, b) {
+    return a + b;
+}
+console.log(soma([2, 3]));
+Output: 2,3undefined
+
+Resultado: 2,3undefined
+Esperado: 5
+Código Final:
+function soma(a, b) {
+    return a + b;}
+console.log(soma([2, 3]));
+Output: 2,3undefined
+
+Resultado: 2,3undefined
+Esperado: 5
+Código Final:
+function soma(a, b) {
+    return a + b;}
+console.log(soma([2, 3]));
+Output: 2,3undefined
+
+Resultado: 2,3undefined
+Esperado: 5
+Código Final:
+function inverterString(str) {
+    return str.split('').reverse().join('')}
+console.log(inverterString("hello"));
+Output: olleh
+
+Resultado: olleh
+Esperado: olleh
+Código Final:
+function soma(a, b) {
+    return a + b}
+console.log(soma([2, 3]));
+Output: 2,3undefined
+
+Resultado: 2,3undefined
+Esperado: 5
+Código Final:
+function fatorial(n) {
+    return n === 0 ? 1 : n * fatorial(n - 1)}
+console.log(fatorial(5));
+Output: 120
+
+Resultado: 120
+Esperado: 120
+Código Final:
+function ehPar(num) {
+    return n % 2 === 0}
+console.log(ehPar(4));
+Output: C:\Users\edgar\AppData\Local\Temp\cod9645.tmp.js:2
+    return n % 2 === 0}
+    ^
+
+ReferenceError: n is not defined
+    at ehPar (C:\Users\edgar\AppData\Local\Temp\cod9645.tmp.js:2:5)
+    at Object.<anonymous> (C:\Users\edgar\AppData\Local\Temp\cod9645.tmp.js:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.14.0
+
+Código Final:
+function soma(a, b) {
+    return a + b}
+console.log(soma([2, 3]));
+Output: 2,3undefined
+
+Resultado: 2,3undefined
+Esperado: 5
+Código Final:
+function inverterString(str) {
+    return str.split('').reverse().join('')}
+console.log(inverterString("hello"));
+Output: olleh
+
+Resultado: olleh
+Esperado: olleh
+Código Final:
+function ehPar(num) {
+    return n % 2 === 0}
+console.log(ehPar(4));
+Output: C:\Users\edgar\AppData\Local\Temp\codC7CE.tmp.js:2
+    return n % 2 === 0}
+    ^
+
+ReferenceError: n is not defined
+    at ehPar (C:\Users\edgar\AppData\Local\Temp\codC7CE.tmp.js:2:5)
+    at Object.<anonymous> (C:\Users\edgar\AppData\Local\Temp\codC7CE.tmp.js:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.14.0
+
+Conexão OK
+Código Final:
+function soma(a, b) {
+    return a + b}
+console.log(soma([2, 3]));
+Output: 2,3undefined
+
+Resultado: 2,3undefined
+Esperado: 5
+Código Submetido: function ehPar(num) {
+    return n % 2 === 0
+}
+Código Final:
+function ehPar(num) {
+    function ehPar(num) {
+    return n % 2 === 0
+}}
+console.log(ehPar(Number(4)));
+Output: undefined
+
+Resultado: undefined
+Esperado: true
+Código Submetido: return n % 2 === 0
+Código Final:
+function ehPar(num) {
+    return n % 2 === 0}
+console.log(ehPar(Number(4)));
+Output: C:\Users\edgar\AppData\Local\Temp\cod1018.tmp.js:2
+    return n % 2 === 0}
+    ^
+
+ReferenceError: n is not defined
+    at ehPar (C:\Users\edgar\AppData\Local\Temp\cod1018.tmp.js:2:5)
+    at Object.<anonymous> (C:\Users\edgar\AppData\Local\Temp\cod1018.tmp.js:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.14.0
+
+Código Submetido: function ehPrimo(num) {
+    return n > 1 && [2, 3, 5, 7].every(d => d === n || n % d !== 0)
+
+}
+Código Final:
+function ehPrimo(num) {
+    function ehPrimo(num) {
+    return n > 1 && [2, 3, 5, 7].every(d => d === n || n % d !== 0)
+
+}}
+console.log(ehPrimo(Number(7)));
+Output: undefined
+
+Resultado: undefined
+Esperado: true
+Código Submetido: return n > 1 && [2, 3, 5, 7].every(d => d === n || n % d !== 0)
+Código Final:
+function ehPrimo(num) {
+    return n > 1 && [2, 3, 5, 7].every(d => d === n || n % d !== 0)}
+console.log(ehPrimo(Number(7)));
+Output: C:\Users\edgar\AppData\Local\Temp\cod5C07.tmp.js:2
+    return n > 1 && [2, 3, 5, 7].every(d => d === n || n % d !== 0)}
+    ^
+
+ReferenceError: n is not defined
+    at ehPrimo (C:\Users\edgar\AppData\Local\Temp\cod5C07.tmp.js:2:5)
+    at Object.<anonymous> (C:\Users\edgar\AppData\Local\Temp\cod5C07.tmp.js:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.14.0
+
+Código Submetido: return n % 3 === 0
+Código Final:
+function multiploTres(n) {
+    return n % 3 === 0}
+console.log(multiploTres(Number(7)));
+Output: false
+
+Resultado: false
+Esperado: false
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    return a - b}
+console.log(subtrair([2, 3]));
+Output: NaN
+
+Resultado: NaN
+Esperado: -1
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    return a - b}
+console.log(subtrair([2, 3]));
+Output: NaN
+
+Resultado: NaN
+Esperado: -1
+Código Submetido: function subtrair(a, b) {
+    return a - b
+}
+Código Final:
+function subtrair(a, b) {
+    function subtrair(a, b) {
+    return a - b
+}}
+console.log(subtrair([2, 3]));
+Output: undefined
+
+Resultado: undefined
+Esperado: -1
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    return a - b;}
+console.log(subtrair.apply(null, [2, 3]));
+Output: -1
+
+Resultado: -1
+Esperado: -1
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    // return
+}
+console.log(subtrair.apply(null, [2, 3]));
+Output: undefined
+
+Resultado: undefined
+Esperado: -1
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    // return
+}
+console.log(subtrair.apply(null, [2, 3]));
+Output: undefined
+
+Resultado: undefined
+Esperado: -1
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    // return
+}
+console.log(subtrair.apply(null, [2, 3]));
+Output: undefined
+
+Resultado: undefined
+Esperado: -1
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    // return
+}
+console.log(subtrair.apply(null, [2, 3]));
+Output: undefined
+
+Resultado: undefined
+Esperado: -1
+Código Submetido: return a + b
+Código Final:
+function subtrair(a, b) {
+    // return
+}
+console.log(subtrair.apply(null, [2, 3]));
+Output: undefined
+
+Resultado: undefined
+Esperado: -1
+Código Submetido: return a + b
+Código Final:
+function subtrair(a, b) {
+    // return
+}
+console.log(subtrair.apply(null, [2, 3]));
+Output: undefined
+
+Resultado: undefined
+Esperado: -1
+Código Submetido: return a + b
+Código Final:
+function subtrair(a, b) {
+    // return
+}
+console.log(subtrair.apply(null, [2, 3]));
+Output: undefined
+
+Resultado: undefined
+Esperado: -1
+Código Submetido: return a + b
+Código Final:
+function soma(a, b) {
+    // return
+}
+console.log(soma(2, 3));
+Output: undefined
+
+Resultado: undefined
+Esperado: 5
+Código Submetido: function soma(a, b) {
+    return a + b;
+}
+Código Final:
+function soma(a, b) {
+    // return
+}
+console.log(soma(2, 3));
+Output: undefined
+
+Resultado: undefined
+Esperado: 5
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    // return
+}
+console.log(subtrair.apply(null, [2, 3]));
+Output: undefined
+
+Resultado: undefined
+Esperado: -1
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    // return
+}
+console.log(subtrair(2, 3));
+Output: undefined
+
+Resultado: undefined
+Esperado: -1
+Código Submetido: return a + b
+Código Final:
+function soma(a, b) {
+    // return
+}
+console.log(soma(2, 3));
+Output: undefined
+
+Resultado: undefined
+Esperado: 5
+Código Submetido: return a + b
+Código Final:
+function soma(a, b) {
+    // return
+}
+console.log(soma.apply(null, [2, 3]));
+Output: undefined
+
+Resultado: undefined
+Esperado: 5
+Código Submetido: return a + b
+Código Final:
+function soma(a, b) {
+    return a + b;}
+console.log(soma(2, 3));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 5
+
+Resultado: 5
+Esperado: 5
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    return a - b;}
+console.log(subtrair(2, 3));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: -1
+
+Resultado: -1
+Esperado: -1
+Código Submetido: return str.split('').reverse().join('')
+Código Final:
+function inverterString(str) {
+    return str.split('').reverse().join('');}
+console.log(inverterString("hello"));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: olleh
+
+Resultado: olleh
+Esperado: olleh
+Código Submetido: return num % 2 === 0
+Código Final:
+function ehPar(num) {
+    return num % 2 === 0;}
+console.log(ehPar(4));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: true
+
+Resultado: true
+Esperado: true
+Código Submetido: return n === 0 ? 1 : n * fatorial(n - 1)
+Código Final:
+function fatorial(n) {
+    return n === 0 ? 1 : n * fatorial(n - 1);}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 120
+
+Resultado: 120
+Esperado: 120
+Código Submetido: return n % 3 === 0
+Código Final:
+function multiploTres(n) {
+    return n % 3 === 0;}
+console.log(multiploTres(7));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: false
+
+Resultado: false
+Esperado: false
+Código Submetido: rgdf
+Código Final:
+function multiploTres(n) {
+    rgdf;}
+console.log(multiploTres(7));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: C:\Users\filip\AppData\Local\Temp\codEB01.tmp.js:2
+    rgdf;}
+    ^
+
+ReferenceError: rgdf is not defined
+    at multiploTres (C:\Users\filip\AppData\Local\Temp\codEB01.tmp.js:2:5)
+    at Object.<anonymous> (C:\Users\filip\AppData\Local\Temp\codEB01.tmp.js:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.17.0
+
+Código Submetido: return num > 1 && [2, 3, 5, 7].every(d => d === num || num % d !== 0)
+Código Final:
+function ehPrimo(num) {
+    return num > 1 && [2, 3, 5, 7].every(d => d === num || num % d !== 0);}
+console.log(ehPrimo(7));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: true
+
+Resultado: true
+Esperado: true
+Código Submetido: return n === 0 ? 1 : n * fatorial(n - 1)
+Código Final:
+function fatorial(n) {
+    return n === 0 ? 1 : n * fatorial(n - 1);}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 120
+
+Resultado: 120
+Esperado: 120
+Código Submetido: return n === 0 ? 1 : n * fatorial(n - 1)
+Código Final:
+function fatorial(n) {
+    return n === 0 ? 1 : n * fatorial(n - 1);}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 120
+
+Resultado: 120
+Esperado: 120
+Código Submetido: return n === 0 ? 1 : n * fatorial(n - 1)
+Código Final:
+function fatorial(n) {
+    return n === 0 ? 1 : n * fatorial(n - 1);}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 120
+
+Resultado: 120
+Esperado: 120
+Código Submetido: return n === 0 ? 1 : n * fatorial(n - 1)
+Código Final:
+function fatorial(n) {
+    return n === 0 ? 1 : n * fatorial(n - 1);}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 120
+
+Resultado: 120
+Esperado: 120
+Código Submetido: return n === 0 ? 1 : n * fatorial(n - 1)
+Código Final:
+function fatorial(n) {
+    return n === 0 ? 1 : n * fatorial(n - 1);}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 120
+
+Resultado: 120
+Esperado: 120
+Código Submetido: return n === 0 ? 1 : n * fatorial(n - 1)
+Código Final:
+function fatorial(n) {
+    return n === 0 ? 1 : n * fatorial(n - 1);}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 120
+
+Resultado: 120
+Esperado: 120
+Código Submetido: return n === 0 ? 1 : n * fatorial(n - 1)
+Código Final:
+function fatorial(n) {
+    return n === 0 ? 1 : n * fatorial(n - 1);}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 120
+
+Resultado: 120
+Esperado: 120
+Código Submetido: function fatorial(n) {
+    // return
+}
+Código Final:
+function fatorial(n) {
+    function fatorial(n) {
+    // return
+};}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: undefined
+
+Resultado: undefined
+Esperado: 120
+Código Submetido: return a + b
+Código Final:
+function soma(a, b) {
+    return a + b;}
+console.log(soma(2, 3));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 5
+
+Resultado: 5
+Esperado: 5
+Código Submetido: return a - b
+Código Final:
+function soma(a, b) {
+    return a - b;}
+console.log(soma(2, 3));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: -1
+
+Resultado: -1
+Esperado: 5
+Código Submetido: return b + a
+Código Final:
+function soma(a, b) {
+    return b + a;}
+console.log(soma(2, 3));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 5
+
+Resultado: 5
+Esperado: 5
+Código Submetido: return b + b
+Código Final:
+function soma(a, b) {
+    return b + b;}
+console.log(soma(2, 3));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 6
+
+Resultado: 6
+Esperado: 5
+Código Submetido: return x + z
+Código Final:
+function soma(a, b) {
+    return x + z;}
+console.log(soma(2, 3));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: C:\Users\filip\AppData\Local\Temp\cod4033.tmp.js:2
+    return x + z;}
+    ^
+
+ReferenceError: x is not defined
+    at soma (C:\Users\filip\AppData\Local\Temp\cod4033.tmp.js:2:5)
+    at Object.<anonymous> (C:\Users\filip\AppData\Local\Temp\cod4033.tmp.js:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.17.0
+
+Código Submetido: return 5
+Código Final:
+function soma(a, b) {
+    return 5;}
+console.log(soma(2, 3));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 5
+
+Resultado: 5
+Esperado: 5
+Código Submetido: return 5
+Código Final:
+function soma(a, b) {
+    return 5;}
+console.log(soma(2, 3));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: 5
+
+Resultado: 5
+Esperado: 5
+Código Submetido: function fatorial(n) {
+    // return
+}
+Código Final:
+function fatorial(n) {
+    function fatorial(n) {
+    // return
+};}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: undefined
+
+Resultado: undefined
+Esperado: 120
+Código Submetido: function fatorial(n) {
+    // return
+}
+Código Final:
+function fatorial(n) {
+    function fatorial(n) {
+    // return
+};}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: undefined
+
+Resultado: undefined
+Esperado: 120
+Código Submetido: function fatorial(n) {
+    // return
+}
+Código Final:
+function fatorial(n) {
+    function fatorial(n) {
+    // return
+};}
+console.log(fatorial(5));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: undefined
+
+Resultado: undefined
+Esperado: 120
+Código Submetido: return a - b
+Código Final:
+function subtrair(a, b) {
+    return a - b;}
+console.log(subtrair(2, 3));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: -1
+
+Resultado: -1
+Esperado: -1
+Código Submetido: return str.split('').reverse().join('')
+Código Final:
+function inverterString(str) {
+    return str.split('').reverse().join('');}
+console.log(inverterString("hello"));
+Caminho Temporário: C:\Users\filip\AppData\Local\Temp
+Output: olleh
+
+Resultado: olleh
+Esperado: olleh
